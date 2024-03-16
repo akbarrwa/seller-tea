@@ -1,0 +1,16 @@
+def greet(name):
+    """
+    This function greets the user with the provided name.
+    
+    Args:
+        name (str): The name of the person to greet.
+        
+    Returns:
+        str: A greeting message.
+    """
+    return f"Hello, {name}! Welcome to GitHub."
+
+if name == "main":
+    user_name = input("Enter your name: ")
+    message = greet(user_name)
+    print(message)
